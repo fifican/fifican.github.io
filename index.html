@@ -4,76 +4,125 @@
 <title>Caryl C's GitHub Profile</title>
 <style type="text/css">
 body {
-	background-color: #f7f7f7;
+	color: #333;
+	background-color: white;
+	margin: 20px;
+	padding: 0px;
 	font-family: Verdana, Arial, sans-serif;
 	}
 h1 {
-	color: #008080;
+	margin: 0px 0px 15px 0px;
+	padding: 0px;
+	font-size: 28px;
+	color: #ccc;
 	font-weight: bold;
 	}
 h2 {
-	color: #4682B4;
-	font-weight: bold;
+	font: bold 12px/14px verdna, arial, sans-serif;
+	margin: 0px 0px 5px 0px;
+	padding: 0px;
 	}
-h3 {
-	color: #2f4f4f;
-	font-weight: bold;
+p {
+	font: 11px/20px verdana, arial, sans-serif;
+	margin: 0px 0px 16px 0px;
+	padding: 0px;
 	}
-.firstcap {
-    float: left;
-    width: 0.7em;
-    font-size: 400%;
-    font-family: algerian, courier;
-    line-height: 80%;
-}	
-#header {
+.Content>p {margin:0px;}
+.Content>p+p {text-indent: 30px;}
+
+a {
+	color:#09c;
+	font-size: 11px;
+	font-family: verdana, arial, sans-serif;
+	font-weight: 600;
+	text-decoration: none;
+	}
+a:link {
+	color: #09c;
+	}
+a:visited {
+	color: #07a; }
+a:hover {
+	background-color: #eee;
+	}
+/* All content boxes belong to content class */
+.content {
+	position: relative;
+	width: auto;
+	min-width: 120px;
+	margin: 0px 210px 20px 170px;
+	border: 1px solid black;
+	background-color: white;
+	padding: 10px;
+	z-index: 3; /* allows content to overlap right menu in narrow windows */				
+	}
+#navAlpha {
 	position: absolute;
-	left: 0px;
-	top: 0px;
-	background-color:#f0ffff;
-	height: 100px;
-	width: 100%;
-	padding: 5px;
-	border-bottom: 2px solid #2f4f4f;
-	}	
-#sidebar {
-	background-color: #eee8aa;
-	float: right;
-	width: 280px;
-	height: 600px;
-	margin-top: -20px;
-	padding: 5px;
-	border: 1px solid #2f4f4f;
-	border-radius: 10px;
+	width: 150px;
+	top: 20px;
+	left: 20px;
+	border: 1px dashed black;
+	background-color: #eee;
+	padding: 10px;
+	z-index: 2;
+	/* hack for IE5 */
+	voice-family: "\"}\"";
+	voice-family:inherit;
+	width:128px;
 	}
-#container {
-	width: 100%;
-	height: 100%;
-	padding: 2px;
-	}	
-.smallfont {
-	font-size: 10pt;
+#navBeta {
+	position:absolute;
+	width:190px;
+	top:20px;
+	right:20px;
+	border:1px dashed black;
+	background-color:#eee;
+	padding:10px;
+	z-index:1;
+/* Again, the ugly brilliant hack. */
+	voice-family: "\"}\"";
+	voice-family:inherit;
+	width:168px;
 	}
-ul	{
-	list-style-type: disc;
-	}					
+/* Again, "be nice to Opera 5". */
+body>#navBeta {width:168px;}	
 </style>
 
 </head>
 <body>
-<div id="header">
-<h1>Caryl C's GitHub Profile</h1>
+<div class="content">
+	<h1>Caryl C's GitHub Profile</h1>
+	<p>Text here Text here Text here Text here Text here Text here 
+	Text here Text here Text here Text here Text here 
+	Text here Text here Text here Text here Text here . </p>
+	<p>Text here Text here Text here Text here Text here Text here 
+	Text here Text here Text here Text here Text here 
+	Text here Text here Text here Text here Text here . </p>
+	
+	<p>Text here Text here Text here Text here Text here Text here 
+	Text here Text here Text here Text here Text here 
+	Text here Text here Text here Text here Text here . </p>
 </div>
-<div id="container">
-<h2>The latest and greatest</h2>
-<div id="sidebar">
-<h3>Sidebar Stuffs</h3>
-<ul class="smallfont">
-	<li>OK, let's see if this displays in 10pt.</li>
-	<li>Because I put the style in the ul tag.</li>
-</ul>
+<div class="content">
+	<h2>The Latest and Greatest</h2>
+	<p>Text here Text here Text here Text here Text here Text here 
+	Text here Text here Text here Text here Text here 
+	Text here Text here Text here Text here Text here . </p>
 </div>
-<p><span class="firstcap">W</span>hy isn't this working??</p>
+<div id="navAlpha">
+	<h2>Links</h2>
+	<a title="A List Apart" href="http://alistapart.com/">A List Apart</a>
+	<br></br>
+	<a title="Whatever" href="#">Whatever</a>
+	<br></br>
+	<a title="And So Forth" href="#">And So Forth</a>
+</div>
+<div id="navBeta">
+	<h2>Right Side Box</h2>
+	<p>Text here Text here Text here Text here Text here Text here 
+	Text here Text here Text here Text here Text here 
+	Text here Text here Text here Text here Text here . </p>
+
 </div>
 </body>
 </html>
