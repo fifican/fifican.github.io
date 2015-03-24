@@ -47,7 +47,7 @@ a:hover {
 	background-color: #eee;
 	}
 img {
-	border 2px solid gray;
+	border 2px inset teal;
 	}	
 /* All content boxes belong to content class */
 .content {
