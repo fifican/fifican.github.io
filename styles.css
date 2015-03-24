@@ -72,10 +72,7 @@ a:hover {
 	voice-family:inherit;
 	width:128px;
 	}
-#navBeta img {
-	border: 2px inset teal;
-	width: 160px;
-	}	
+
 #navBeta {
 	position:absolute;
 	width:190px;
@@ -90,5 +87,10 @@ a:hover {
 	voice-family:inherit;
 	width:168px;
 	}
+img #navBeta{
+	border: 2px inset teal;
+	width
+	}	
+	
 /* Again, "be nice to Opera 5". */
-body>#navBeta {width:168px;}	
+body>#navBeta {width:168px;}	: 160px;
