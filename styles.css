@@ -47,7 +47,7 @@ a:hover {
 	background-color: #eee;
 	}
 img {
-	border-style: 2px inset teal;
+	border: 2px solid red;
 	}	
 /* All content boxes belong to content class */
 .content {
@@ -88,8 +88,8 @@ img {
 	voice-family:inherit;
 	width:168px;
 	}
-#navBeta > img {
-	border: 2px inset teal;
+#navBeta img {
+	border: 2px solid red;
 	width: 160px;
 	}
 /* Again, "be nice to Opera 5". */
