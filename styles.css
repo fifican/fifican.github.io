@@ -90,6 +90,7 @@ img {
 	}
 img #navBeta {
 	border: 2px inset teal;
+	width: 160px;
 	}
 /* Again, "be nice to Opera 5". */
 body>#navBeta {width:168px;}	
