@@ -46,9 +46,7 @@ a:visited {
 a:hover {
 	background-color: #eee;
 	}
-img {
-	border: 2px inset teal;
-	}	
+
 /* All content boxes belong to content class */
 .content {
 	position: relative;
@@ -74,6 +72,10 @@ img {
 	voice-family:inherit;
 	width:128px;
 	}
+#navBeta img {
+	border: 2px inset teal;
+	width: 160px;
+	}	
 #navBeta {
 	position:absolute;
 	width:190px;
