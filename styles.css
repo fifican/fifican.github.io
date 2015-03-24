@@ -88,7 +88,7 @@ img {
 	voice-family:inherit;
 	width:168px;
 	}
-#navBeta img {
+img #navBeta {
 	border: 2px inset teal;
 	}
 /* Again, "be nice to Opera 5". */
